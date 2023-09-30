@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢度国庆</title>
+    <style>
+        body {
+            font-family: '宋体', Arial, sans-serif;
+            margin: 0;
+            background-color: #f3f4f6;
+            overflow-y: auto; /* 允许垂直滚动 */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            margin-bottom: 100px; /* 为每个容器之间增加一些空间 */
+        }
+        h1 {
+            font-size: 3em;
+            color: #d32f2f;
+            text-align: center;
+            border-bottom: 2px solid #d32f2f;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        p {
+            font-size: 1.2em;
+            color: #333;
+            line-height: 1.6;
+            text-indent: 2em;
+        }
+        /* 动态文字效果 */
+        @keyframes fadeInOut {
+            0% { opacity: 0; }
+            50% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+        .dynamic-text {
+            font-size: 2em;
+            color: #d32f2f;
+            text-align: center;
+            margin-top: 20px;
+            animation: fadeInOut 5s infinite;
+        }
+        iframe {
+            display: block;
+            margin: 20px auto;
+            border: none;
+            width: 80%;
+            height: 450px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 第一页内容 -->
+    <div class="container">
+        <h1>欢度国庆</h1>
+        <p>国庆节，是中华人民共和国的成立纪念日。这一天，全国各族人民都沉浸在欢欣鼓舞的氛围中，举行各种庆祝活动，共同祝愿伟大的祖国繁荣昌盛、永远强大。</p>
+        <img src="https://th.bing.com/th/id/R.d33c16d4cf2a2bee7a2761f98136aa5f?rik=KPQ%2fUMVzIxLyZg&riu=http%3a%2f%2fwww.wzljl.cn%2fimages%2f2020-05%2f27%2fba2665e4-b44a-4001-933f-c2d8e9ae3f7f.jpg&ehk=7MqVKUWcNCHk3RVupLLZ7jxBf0kOrEpFSnHamSkPg8U%3d&risl=&pid=ImgRaw&r=0" alt="Image 1">
+    </div>
+
+    <!-- 第二页内容 -->
+    <div class="container">
+        <div class="dynamic-text">2023欢度国庆！人民英雄永垂不巧！中华人民共和国万岁！中国人民万岁！</div>
+        <img src="https://img95.699pic.com/photo/50063/1044.jpg_wh300.jpg!/fh/300/quality/90" alt="Image 2">
+    </div>
+
+    <!-- 第三页内容（视频） -->
+    <div class="container">
+        <!-- Bilibili视频 -->
+        <iframe src="https://player.bilibili.com/player.html?bvid=BV1EE411Q7zA&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+    </div>
+</body>
+
+</html>
